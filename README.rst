@@ -6,7 +6,7 @@ Very simple user model for Django >= 1.5 with only email and password fields wit
 
 1. Through Github:
 ```sh
-pip install -e git://github.com/Seleznev-nvkz/django-simple-user#egg=custom_auth
+pip install -e git://github.com/Seleznev-nvkz/django-simple-user#egg=simple_auth
 ```
 2. Or:
 ```sh
