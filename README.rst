@@ -12,7 +12,7 @@ pip install -e git://github.com/Seleznev-nvkz/django-simple-user#egg=simple_auth
 ```sh
 python setup.py install
 ```
-3. Add ```'custom_auth'``` into the ```INSTALLED_APPS``` list.
+3. Add ```'simple_auth'``` into the ```INSTALLED_APPS``` list.
 4. Set your ```AUTH_USER_MODEL``` setting to use ```AbstractSimpleUser```:
 ```sh
 AUTH_USER_MODEL = 'simple_auth.AbstractSimpleUser'
